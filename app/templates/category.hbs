@@ -1,5 +1,3 @@
 <h1>{{model.name}}</h1>
 {{new-post category=model save="save"}}
-{{#each model.posts as |post|}}
-  <li>{{#link-to 'post' post.id}}{{post.title}}{{/link-to}}</li>
-{{/each}}
+{{post-list category=model}}
