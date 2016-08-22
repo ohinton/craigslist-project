@@ -1,25 +1,4 @@
-{ "cities": [{
-    "name": "portland",
-    "state": "OR"
-  },
-  {
-    "name": "eugene",
-    "state": "OR"
-  },
-  {
-    "name": "bend",
-    "state": "OR"
-  },
-  {
-    "name": "salem",
-    "state": "OR"
-  },
-  {
-    "name": "medford-ashland",
-    "state": "OR"
-  }
-],
-"categories": [{
+{ "categories": [{
     "name": "community"
   },
   {

@@ -7,8 +7,9 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('admin');
-  this.route('category', {path: '/category/:category_id'});
+  this.route('category', {path: '/admin-category/:category_id'});
   this.route('post', {path: '/post/:post_id'});
+  this.route('public-category', {path: '/category/:category_id'})
 });
 
 export default Router;
